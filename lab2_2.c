@@ -9,7 +9,7 @@
 // INHA University - Unix Programming Lab Assignment#2.2
 // this programm takes file name and input random characters through arguments)
 // One sample ./exeName FileName 123456789
-
+//
 void strReverse(char *array){
     char *stored = (char *) malloc(sizeof(char) * strlen(array));
     strncpy(stored, array, strlen(array));
