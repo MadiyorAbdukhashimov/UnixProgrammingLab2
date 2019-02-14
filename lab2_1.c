@@ -5,6 +5,10 @@
 #include<unistd.h>
 #include<ctype.h>
 
+// U1610131 - Madiyor Abdukhashimov
+// INHA University - Unix Programming Lab Assignment#2.1
+// this programm takes file name and input random characters through arguments)
+
 void to_binary(int number, char *array){
     int i = 0;
     int size = 0;
